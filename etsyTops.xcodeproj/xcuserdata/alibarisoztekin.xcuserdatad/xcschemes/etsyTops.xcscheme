@@ -17,7 +17,7 @@
                BlueprintIdentifier = "E155D7961ECE1CB20020A387"
                BuildableName = "Wiivv Assignment-1.app"
                BlueprintName = "Wiivv Assignment-1"
-               ReferencedContainer = "container:Wiivv Assignment-1.xcodeproj">
+               ReferencedContainer = "container:etsyTops.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
             BlueprintIdentifier = "E155D7961ECE1CB20020A387"
             BuildableName = "Wiivv Assignment-1.app"
             BlueprintName = "Wiivv Assignment-1"
-            ReferencedContainer = "container:Wiivv Assignment-1.xcodeproj">
+            ReferencedContainer = "container:etsyTops.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -58,7 +58,7 @@
             BlueprintIdentifier = "E155D7961ECE1CB20020A387"
             BuildableName = "Wiivv Assignment-1.app"
             BlueprintName = "Wiivv Assignment-1"
-            ReferencedContainer = "container:Wiivv Assignment-1.xcodeproj">
+            ReferencedContainer = "container:etsyTops.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -77,7 +77,7 @@
             BlueprintIdentifier = "E155D7961ECE1CB20020A387"
             BuildableName = "Wiivv Assignment-1.app"
             BlueprintName = "Wiivv Assignment-1"
-            ReferencedContainer = "container:Wiivv Assignment-1.xcodeproj">
+            ReferencedContainer = "container:etsyTops.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

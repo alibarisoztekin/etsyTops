@@ -13,6 +13,16 @@
 		E155D7A21ECE1CB20020A387 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E155D7A11ECE1CB20020A387 /* Assets.xcassets */; };
 		E155D7A51ECE1CB20020A387 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E155D7A31ECE1CB20020A387 /* LaunchScreen.storyboard */; };
 		E155D7AD1ECE1F520020A387 /* EtsyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155D7AC1ECE1F520020A387 /* EtsyTableViewCell.swift */; };
+		E155D7AF1ECE2C300020A387 /* Listing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155D7AE1ECE2C300020A387 /* Listing.swift */; };
+		E155D7B11ECE2C630020A387 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155D7B01ECE2C630020A387 /* NetworkManager.swift */; };
+		E160A2871EE212260019C2A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155D79C1ECE1CB20020A387 /* ViewController.swift */; };
+		E160A2881EE212260019C2A0 /* EtsyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155D7AC1ECE1F520020A387 /* EtsyTableViewCell.swift */; };
+		E160A2891EE212260019C2A0 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155D7B01ECE2C630020A387 /* NetworkManager.swift */; };
+		E160A28A1EE212260019C2A0 /* Listing.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155D7AE1ECE2C300020A387 /* Listing.swift */; };
+		E160A28B1EE212260019C2A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E155D79A1ECE1CB20020A387 /* AppDelegate.swift */; };
+		E160A28E1EE212260019C2A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E155D7A31ECE1CB20020A387 /* LaunchScreen.storyboard */; };
+		E160A28F1EE212260019C2A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E155D7A11ECE1CB20020A387 /* Assets.xcassets */; };
+		E160A2901EE212260019C2A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E155D79E1ECE1CB20020A387 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,10 +34,21 @@
 		E155D7A41ECE1CB20020A387 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E155D7A61ECE1CB20020A387 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E155D7AC1ECE1F520020A387 /* EtsyTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EtsyTableViewCell.swift; sourceTree = "<group>"; };
+		E155D7AE1ECE2C300020A387 /* Listing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Listing.swift; sourceTree = "<group>"; };
+		E155D7B01ECE2C630020A387 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		E160A2941EE212260019C2A0 /* Wiivv Assignment-1 copy.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Wiivv Assignment-1 copy.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E160A2951EE212260019C2A0 /* Wiivv Assignment-1 copy-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Wiivv Assignment-1 copy-Info.plist"; path = "/Users/alibarisoztekin/Documents/iOS Exercises/etsyTops/Wiivv Assignment-1 copy-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		E155D7941ECE1CB20020A387 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E160A28C1EE212260019C2A0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -40,8 +61,9 @@
 		E155D78E1ECE1CB20020A387 = {
 			isa = PBXGroup;
 			children = (
-				E155D7991ECE1CB20020A387 /* Wiivv Assignment-1 */,
+				E155D7991ECE1CB20020A387 /* etsyTops */,
 				E155D7981ECE1CB20020A387 /* Products */,
+				E160A2951EE212260019C2A0 /* Wiivv Assignment-1 copy-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -49,22 +71,25 @@
 			isa = PBXGroup;
 			children = (
 				E155D7971ECE1CB20020A387 /* Wiivv Assignment-1.app */,
+				E160A2941EE212260019C2A0 /* Wiivv Assignment-1 copy.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E155D7991ECE1CB20020A387 /* Wiivv Assignment-1 */ = {
+		E155D7991ECE1CB20020A387 /* etsyTops */ = {
 			isa = PBXGroup;
 			children = (
 				E155D7AC1ECE1F520020A387 /* EtsyTableViewCell.swift */,
 				E155D79A1ECE1CB20020A387 /* AppDelegate.swift */,
 				E155D79C1ECE1CB20020A387 /* ViewController.swift */,
+				E155D7AE1ECE2C300020A387 /* Listing.swift */,
+				E155D7B01ECE2C630020A387 /* NetworkManager.swift */,
 				E155D79E1ECE1CB20020A387 /* Main.storyboard */,
 				E155D7A11ECE1CB20020A387 /* Assets.xcassets */,
 				E155D7A31ECE1CB20020A387 /* LaunchScreen.storyboard */,
 				E155D7A61ECE1CB20020A387 /* Info.plist */,
 			);
-			path = "Wiivv Assignment-1";
+			path = etsyTops;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -87,6 +112,23 @@
 			productReference = E155D7971ECE1CB20020A387 /* Wiivv Assignment-1.app */;
 			productType = "com.apple.product-type.application";
 		};
+		E160A2851EE212260019C2A0 /* Wiivv Assignment-1 copy */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E160A2911EE212260019C2A0 /* Build configuration list for PBXNativeTarget "Wiivv Assignment-1 copy" */;
+			buildPhases = (
+				E160A2861EE212260019C2A0 /* Sources */,
+				E160A28C1EE212260019C2A0 /* Frameworks */,
+				E160A28D1EE212260019C2A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Wiivv Assignment-1 copy";
+			productName = "Wiivv Assignment-1";
+			productReference = E160A2941EE212260019C2A0 /* Wiivv Assignment-1 copy.app */;
+			productType = "com.apple.product-type.application";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -103,7 +145,7 @@
 					};
 				};
 			};
-			buildConfigurationList = E155D7921ECE1CB20020A387 /* Build configuration list for PBXProject "Wiivv Assignment-1" */;
+			buildConfigurationList = E155D7921ECE1CB20020A387 /* Build configuration list for PBXProject "etsyTops" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -117,6 +159,7 @@
 			projectRoot = "";
 			targets = (
 				E155D7961ECE1CB20020A387 /* Wiivv Assignment-1 */,
+				E160A2851EE212260019C2A0 /* Wiivv Assignment-1 copy */,
 			);
 		};
 /* End PBXProject section */
@@ -132,6 +175,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		E160A28D1EE212260019C2A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E160A28E1EE212260019C2A0 /* LaunchScreen.storyboard in Resources */,
+				E160A28F1EE212260019C2A0 /* Assets.xcassets in Resources */,
+				E160A2901EE212260019C2A0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -141,7 +194,21 @@
 			files = (
 				E155D79D1ECE1CB20020A387 /* ViewController.swift in Sources */,
 				E155D7AD1ECE1F520020A387 /* EtsyTableViewCell.swift in Sources */,
+				E155D7B11ECE2C630020A387 /* NetworkManager.swift in Sources */,
+				E155D7AF1ECE2C300020A387 /* Listing.swift in Sources */,
 				E155D79B1ECE1CB20020A387 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E160A2861EE212260019C2A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E160A2871EE212260019C2A0 /* ViewController.swift in Sources */,
+				E160A2881EE212260019C2A0 /* EtsyTableViewCell.swift in Sources */,
+				E160A2891EE212260019C2A0 /* NetworkManager.swift in Sources */,
+				E160A28A1EE212260019C2A0 /* Listing.swift in Sources */,
+				E160A28B1EE212260019C2A0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,9 +333,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Wiivv Assignment-1/Info.plist";
+				INFOPLIST_FILE = etsyTops/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.aboztekin.Wiivv-Assignment-1";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aboztekin.etsyTops;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -278,9 +345,33 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = "Wiivv Assignment-1/Info.plist";
+				INFOPLIST_FILE = etsyTops/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.aboztekin.Wiivv-Assignment-1";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aboztekin.etsyTops;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		E160A2921EE212260019C2A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Wiivv Assignment-1 copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aboztekin.etsyTops;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		E160A2931EE212260019C2A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Wiivv Assignment-1 copy-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aboztekin.etsyTops;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -289,7 +380,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		E155D7921ECE1CB20020A387 /* Build configuration list for PBXProject "Wiivv Assignment-1" */ = {
+		E155D7921ECE1CB20020A387 /* Build configuration list for PBXProject "etsyTops" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				E155D7A71ECE1CB20020A387 /* Debug */,
@@ -305,6 +396,16 @@
 				E155D7AB1ECE1CB20020A387 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E160A2911EE212260019C2A0 /* Build configuration list for PBXNativeTarget "Wiivv Assignment-1 copy" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E160A2921EE212260019C2A0 /* Debug */,
+				E160A2931EE212260019C2A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
